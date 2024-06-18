@@ -58,10 +58,10 @@ setup(
     python_requires='>=3.3',
     install_requires=[
         "tqdm>=4.32",
-        "python-dateutil>=2.8,<2.9",
-        "requests>=2.22,<2.23",
-        "requests-cache>=0.5,<0.6",
-        'htmllistparse>=0.5.2,<0.6.0',
+        "python-dateutil>=2.8",
+        "requests>=2.22",
+        "requests-cache>=0.5",
+        'htmllistparse>=0.5.2',
     ],
     entry_points={"console_scripts": ["dwdweather = dwdweather.commands:run"]},
 )
